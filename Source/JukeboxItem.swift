@@ -34,11 +34,11 @@ protocol JukeboxItemDelegate : class {
 open class JukeboxItem: NSObject {
     
     public struct Meta {
-        fileprivate(set) public var duration: Double?
-        fileprivate(set) public var title: String?
-        fileprivate(set) public var album: String?
-        fileprivate(set) public var artist: String?
-        fileprivate(set) public var artwork: UIImage?
+        public var duration: Double?
+        public var title: String?
+        public var album: String?
+        public var artist: String?
+        public var artwork: UIImage?
     }
     
     // MARK:- Properties -
