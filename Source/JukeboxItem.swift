@@ -51,7 +51,7 @@ open class JukeboxItem: NSObject {
     
     fileprivate(set) open var playerItem: AVPlayerItem?
     fileprivate (set) open var currentTime: Double?
-    fileprivate(set) open lazy var meta = Meta()
+    open lazy var meta = Meta()
 
     
     fileprivate var timer: Timer?
